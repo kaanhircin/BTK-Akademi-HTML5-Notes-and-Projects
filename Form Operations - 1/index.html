@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Operations</title>
+</head>
+
+<body>
+    <h1>Registration Form with GET Method</h1>
+    <form name="registerGet" action="register.php" method="get">
+        Name & Surname: <input type="text" name="nameSurnameGet" id="txtNameSurnameGet" size="20" maxlength="30" required>
+        <br>
+        <br> Email: <input type="email" name="emailGet" id="txtEmailGet" required>
+        <br>
+        <br> Website: <input type="text" name="websiteGet" id="txtWebsiteGet">
+        <br>
+        <br> Age: <input type="number" name="ageGet" id="txtAgeGet" required>
+        <br>
+        <br>
+        <input type="reset" value="Clear">
+        <input type="submit" value="Register">
+    </form>
+
+    <br>
+
+    <h1>Registration Form with POST Method</h1>
+    <form name="registerPost" action="register.php" method="post">
+        Name & Surname: <input type="text" name="nameSurnamePost" id="txtNameSurnamePost" size="20" maxlength="30" required>
+        <br>
+        <br> Email: <input type="email" name="emailPost" id="txtEmailPost" required>
+        <br>
+        <br> Website: <input type="text" name="websitePost" id="txtWebsitePost">
+        <br>
+        <br> Age: <input type="number" name="agePost" id="txtAgePost" required>
+        <br>
+        <br>
+        <input type="reset" value="Clear">
+        <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>
