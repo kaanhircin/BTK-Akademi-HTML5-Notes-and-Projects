@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Operations</title>
+</head>
+
+<body>
+    <form name="register" action="register.aspx" method="get" autocomplete="on">
+        <table>
+            <caption>Register Form</caption>
+            <tr>
+                <td><label for="fNameSurname">Name & Surname:</label></td>
+                <td><input type="text" name="fNameSurname" id="fNameSurname" required size="30" maxlength="50" autofocus placeholder="Enter your name and surname"></td>
+            </tr>
+
+            <tr>
+                <td><label for="fAge">Age:</label></td>
+                <td><input type="number" name="fAge" id="fAge" required size="30" maxlength="50" placeholder="Enter your age"></td>
+            </tr>
+
+            <tr>
+                <td><label for="fEmail">Email:</label></td>
+                <td><input type="email" name="fEmail" id="fEmail" required size="30" maxlength="50" placeholder="Enter your email address"></td>
+            </tr>
+
+            <tr>
+                <td><label for="fPassword">Password:</label></td>
+                <td><input type="password" name="fPassword" id="fPassword" required size="30" maxlength="50" placeholder="Enter your password"></td>
+            </tr>
+
+            <tr>
+                <td><label for="fWebsite">Website:</label></td>
+                <td><input type="text" name="fWebsite" id="fWebsite" size="30" maxlength="50" placeholder="You can enter your website" disabled></td>
+            </tr>
+
+            <!-- Option List -->
+            <tr>
+                <td><label for="fCountry"> Country:</label></td>
+                <td>
+                    <select name="fCountry" id="fCountry">
+                        <option selected>Turkey</option>
+                        <option>Germany</option>
+                        <option>Poland</option>
+                        <option>Italy</option>
+                        <option>Spain</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Radio Button -->
+            <tr>
+                <td><label for="fSport">Your Best Sport:</label></td>
+                <td><input type="radio" name="fSport" value="football" checked>Football</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="radio" name="fSport" value="basketball">Basketball</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="radio" name="fSport" value="swimming">Swimming</td>
+            </tr>
+
+            <!-- Text Area -->
+            <tr>
+                <td><label for="fComments"> Comments:</label></td>
+                <td><textarea name="fComments" id="fComments" cols="30" rows="5" placeholder="Share your comments with us"></textarea></td>
+            </tr>
+
+            <!-- Checkbox -->
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="subscribe" checked>I want to subscribe</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="receiveEmail">I want to receive email from you</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="reset" value="Clear"><input type="submit" value="Register"></td>
+            </tr>
+
+            <!-- Submit Button with Image -->
+            <tr>
+                <td></td>
+                <td><input type="image" src="images/Submit.png" width="50px"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
