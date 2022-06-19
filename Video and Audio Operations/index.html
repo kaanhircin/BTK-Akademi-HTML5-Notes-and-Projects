@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Video and Audio Operations</title>
+</head>
+
+<body>
+    <!-- Video Files: MP4, WebM, Ogg -->
+    <h1>My Videos</h1>
+    <h2>Bread</h2>
+    <video src="videos/Bread.mp4" controls width="500px" loop preload autoplay muted></video>
+
+    <!-- Supporting Different Video Format -->
+    <h2>Supporting Different Video Format</h2>
+    <video width="500" controls>
+        <source src="videos/Bread.mp4" type="video/mp4">
+        <source src="videos/Bread.ogg" type="video/ogg">
+        <source src="videos/Bread.webm" type="video/webm">
+    </video>
+
+    <!-- Audio Files: MP3, WAV, Ogg -->
+    <h1>My Audios</h1>
+    <h2>Jane Maryam</h2>
+    <audio src="audios/JaneMaryam.mp3" controls muted preload></audio>
+
+    <!-- Supporting Different Audio Format -->
+    <h2>Supporting Different Audio Format</h2>
+    <audio controls autoplay>
+        <source src="audios/JaneMaryam.mp3" type="audio/mp3">
+        <source src="audios/JaneMaryam.ogg" type="audio/ogg">
+        <source src="audios/JaneMaryam.wav" type="audşo/wav">    
+    </audio>
+</body>
+
+</html>
