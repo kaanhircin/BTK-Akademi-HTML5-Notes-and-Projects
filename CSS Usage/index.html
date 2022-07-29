@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Usage</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!-- Internal CSS -->
+    <style type="text/css">
+        #p2 {
+            color: blue;
+            font-size: 30px;
+        }
+        
+        .test {
+            color: deeppink;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inline CSS -->
+    <p style="color: red; font-size: 20px;">First paragraph with Inline CSS</p>
+    <p id="p2">Second paragraph with Internal CSS</p>
+    <p class="p3">Third paragraph with External CSS</p>
+
+    <!-- Priority -->
+    <p class="test" style="color: blueviolet;">Which CSS is more priority?</p>
+</body>
+
+</html>
