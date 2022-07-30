@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CSS Selectors</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body {
+            background-color: rgb(8, 26, 42);
+        }
+        
+        h1 {
+            color: cornflowerblue;
+        }
+        
+        p {
+            color: darksalmon;
+            font-size: 15px;
+        }
+        
+        #firstandlast {
+            color: paleturquoise;
+        }
+        
+        .between {
+            color: rgb(178, 214, 116);
+        }
+        
+        h2,
+        h3 {
+            color: goldenrod;
+        }
+        
+        p span {
+            color: lightgoldenrodyellow;
+            font-size: 20px;
+        }
+        
+        nav #nav_firstandlast,
+        nav #nav_between {
+            font-size: 30px;
+        }
+        
+        nav #nav_firstandlast {
+            color: aquamarine;
+        }
+        
+        nav #nav_between {
+            color: dodgerblue;
+        }
+        
+        p.italic {
+            font-style: italic;
+        }
+        
+        div>h1 {
+            color: fuchsia;
+        }
+        
+        div>p:last-child {
+            color: lime;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Priority = ID > CLASS > TAGS -->
+    <nav>
+        <a id="nav_firstandlast" href="">Home</a> |
+        <a id="nav_between" href="">About</a> |
+        <a id="nav_firstandlast" href="">Projects</a>
+        <h1>Personal Website</h1>
+        <p>Hello!</p>
+        <p>Welcome to my website</p>
+    </nav>
+    <p id="firstandlast">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aperiam itaque reprehenderit unde consequuntur harum commodi possimus, id autem sequi a voluptas sunt corrupti officia dicta reiciendis, consequatur atque optio!</p>
+    <p class="between">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aperiam itaque reprehenderit unde consequuntur harum commodi possimus, id autem sequi a voluptas sunt corrupti officia dicta reiciendis, consequatur atque optio!</p>
+    <p class="between">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aperiam itaque reprehenderit unde consequuntur harum commodi possimus, id autem sequi a voluptas sunt corrupti officia dicta reiciendis, consequatur atque optio!</p>
+    <p id="firstandlast">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aperiam itaque reprehenderit unde consequuntur harum commodi possimus, id autem sequi a voluptas sunt corrupti officia dicta reiciendis, consequatur atque optio!</p>
+
+    <h2>Location:</h2>
+    <p>Turkey</p>
+    <h3>Address:</h3>
+    <p>Ankara/Turkey</p>
+    <h2>Contact me:</h2>
+    <P>abc123@gmail.com</P>
+
+    <h1>Skills:</h1>
+    <p>I know <span>C</span> programming language.</p>
+    <p class="italic">I'm currently learning <span>HTML, CSS and JavaScript</span> programming languages.</p>
+
+    <div>
+        <h1>Resume:</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni beatae nam similique assumenda esse! Eligendi nulla mollitia excepturi, commodi, dolores aut, repellat qui expedita itaque tempora porro at inventore recusandae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni beatae nam similique assumenda esse! Eligendi nulla mollitia excepturi, commodi, dolores aut, repellat qui expedita itaque tempora porro at inventore recusandae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni beatae nam similique assumenda esse! Eligendi nulla mollitia excepturi, commodi, dolores aut, repellat qui expedita itaque tempora porro at inventore recusandae.</p>
+    </div>
+</body>
+
+</html>
