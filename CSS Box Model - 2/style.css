@@ -1,0 +1,56 @@
+#page {
+    border-style: solid;
+    width: 1200px;
+    margin: auto;
+    background-color: lightblue;
+}
+
+header {
+    border-style: solid;
+    border-color: red;
+    font-size: 30px;
+    text-align: center;
+    background-color: lightgrey;
+    width: 1150px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+nav {
+    border-style: solid;
+    border-color: greenyellow;
+    font-size: 30px;
+    text-align: center;
+    background-color: cornsilk;
+    width: 1150px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+article {
+    border-style: solid;
+    border-color: white;
+    font-size: 30px;
+    text-align: center;
+    background-color: darkgray;
+    width: 1150px;
+    min-height: 350px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer {
+    border-style: solid;
+    border-color: deeppink;
+    font-size: 30px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    width: 1150px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
