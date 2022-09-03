@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CSS Box Model</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        h1 {
+            border-style: solid;
+            width: 250px;
+            height: 100px;
+            padding: 100px 20px 30px 40px;
+            margin: 30px;
+        }
+        
+        .operating-system {
+            padding: 20px;
+            margin: 20px;
+            border-style: double;
+            border-width: 10px;
+            border-color: cornflowerblue;
+            border-radius: 5px;
+        }
+        
+        .software {
+            padding: 20px;
+            margin: 20px;
+            border-style: groove dotted dashed double;
+            border-width: 15px 15px 30px 15px;
+            border-color: darksalmon aquamarine;
+            border-radius: 20px;
+        }
+        
+        .programming-languages-h {
+            width: 500px;
+            height: 50px;
+            margin: 5px;
+            padding: 10px;
+            border-style: solid;
+            border-width: 5px;
+            border-color: green;
+            background-color: aquamarine;
+        }
+        
+        .programming-languages {
+            width: 100px;
+            height: 30px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: green;
+            background-color: floralwhite;
+        }
+        
+        h2 {
+            width: 300px;
+            height: 80px;
+            padding: 150px 0px 0px 150px;
+            color: white;
+            border-style: solid;
+            border-radius: 10px;
+            border-color: goldenrod;
+            border-width: 5px;
+            background-color: deepskyblue;
+            background-image: url(AI.jpg);
+            background-size: 400px;
+            background-position: center;
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+        }
+        
+        .block {
+            border-style: solid;
+            display: inline;
+        }
+        
+        .inline {
+            border-style: solid;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Block: <hx>, <table>, <p>, <li>, <form>, <div> OR Inline: <a>, <b>, <em>, <img>, <i>, <span> -->
+
+    <h1>Basic Informatics</h1>
+    <p class="operating-system">Microsoft Windows</p>
+    <p class="operating-system">Linux</p>
+    <p class="software">Microsoft Office</p>
+    <p class="software">LibreOffice</p>
+
+    <h1 class="programming-languages-h">Programming Languages</h1>
+    <p class="programming-languages">JavaScript</p>
+    <p class="programming-languages">Kotlin</p>
+    <p class="programming-languages">Python</p>
+
+    <h2>Artificial Intelligence</h2>
+
+    <!-- 
+        Border:
+        1) border-style: ; (none, solid, dotted, dashed, double, grove ...)
+        2) border-width: ; (px, thin, medium, thick)
+        3) border-color: ; (#rrggbb, rgb(rrr,ggg,bbb))
+        4) border-radius: ; (%, px)
+
+        Background:
+        1) background-color: ; (#rrggbb, rgb(rrr,ggg,bbb))
+        2) background-image: url(example.jpg);
+        3) background-size: ; (px)
+    -->
+
+    <!-- Changing the CSS Box Model -->
+    <p class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <span class="inline">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
+</body>
+
+</html>
