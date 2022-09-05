@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-style: solid;
+    border-color: darkmagenta;
+    border-width: 3px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    float: left;
+    margin: 5px;
+    background-color: gold;
+    padding: 10px;
+}
+
+ul li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: red;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: blue;
+}
