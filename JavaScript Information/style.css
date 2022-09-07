@@ -1,0 +1,25 @@
+.container {
+    border-style: solid;
+    border-width: 2px;
+    border-color: cornflowerblue;
+    border-radius: 20px;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: crimson;
+    text-align: center;
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: cornflowerblue;
+    border-radius: 30px;
+}
