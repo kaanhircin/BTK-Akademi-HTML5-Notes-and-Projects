@@ -1,0 +1,87 @@
+/********** External CSS **********/
+
+h1 {
+    color: navy;
+    font-size: 64px;
+}
+
+h1,
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: brown;
+    font-size: 48px;
+}
+
+p {
+    font-size: 20px;
+}
+
+p.external {
+    color: magenta;
+}
+
+h4 {
+    font-size: 36px;
+}
+
+h5 {
+    font-size: 32px;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.fs-italic {
+    font-style: italic;
+}
+
+#first-article {
+    background-color: lightblue;
+}
+
+#last-article {
+    background-color: lightsalmon;
+}
+
+
+/* CSS Selectors */
+
+.color-blueviolet.fw-normal {
+    color: blueviolet;
+    font-weight: normal;
+}
+
+.color-green .fw-bold {
+    color: green;
+    font-weight: bold;
+}
+
+ul>li:first-child {
+    color: crimson;
+}
+
+li:last-child {
+    color: cornflowerblue;
+}
+
+li:nth-child(4) {
+    color: goldenrod;
+}
+
+li:nth-child(odd) {
+    background-color: darkseagreen;
+}
+
+li:nth-child(even) {
+    background-color: beige;
+}
