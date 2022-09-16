@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    min-height: 500px;
+    margin: 50px auto 0;
+}
+
+.left-bar {
+    width: 170px;
+    min-height: 500px;
+    margin: 0 10px;
+    padding: 0 5px;
+    float: left;
+}
+
+.content {
+    width: 790px;
+    min-height: 500px;
+    float: left;
+}
+
+.card {
+    width: 17%;
+    height: 150px;
+    float: left;
+    padding: 19% 5%;
+    margin: 3%;
+    background-color: rgb(159, 173, 186);
+    border-radius: 10px;
+}
+
+.gradient {
+    background-image: linear-gradient(red, yellow);
+}
+
+.btn {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.75);
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+
+/* 
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    float: left;
+    margin-left: 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+*/
