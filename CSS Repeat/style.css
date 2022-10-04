@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    min-height: 670px;
+    border: 3px solid red;
+    border-radius: 10%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+    padding: 2%;
+}
+
+.menu ul li a {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    border: 1px solid beige;
+    background-color: beige;
+    border-radius: 25%;
+    padding: 3px;
+}
+
+.menu ul li a:hover {
+    color: beige;
+    background-color: red;
+}
+
+.firstHeading {
+    text-align: center;
+    color: red;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-bottom: 1%;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px black;
+}
+
+.container p {
+    font-size: 20px;
+    text-align: justify;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1.5%;
+    text-indent: 40px;
+    border-radius: 20%;
+}
+
+.container p:hover {
+    background-color: beige;
+}
+
+.table {
+    margin-top: 15%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+caption {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    text-shadow: 2px 2px black;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+tr:hover {
+    background-color: beige;
+}
+
+label {
+    display: block;
+    padding: 1%;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+.individual {
+    text-align: center;
+    margin-top: 15%;
+}
+
+input[type=text],
+input[type=password] {
+    width: 70%;
+    background-color: beige;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 1px solid red;
+    border-bottom: 5px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    color: red;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: lightblue;
+}
+
+input[type=submit] {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    background-color: beige;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    color: beige;
+    background-color: red;
+}
